@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Carousel</title>
 </head>
 <body>
-    <h1>Image Carousel</h1>
+    <div class="carousel">
+        <button class="carousel_button left">
+            <img src="image/previous.png" alt="">
+        </button>
+        <div class="carousel_track-container">
+            <ul class="carousel_track">
+                <li class="carousel_slide">
+                    <img src="image/one.jpeg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img src="image/two.jpeg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img src="image/three.jpeg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img src="image/four.jpeg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img src="image/five.jpeg" alt="">
+                </li>
+                <li class="carousel_slide">
+                    <img src="image/six.jpeg" alt="">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel_button right">
+            <img src="image/next.png" alt="">
+        </button>
+
+        <div class="carousel_nav">
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+        </div>
+    </div>
 </body>
 </html>
