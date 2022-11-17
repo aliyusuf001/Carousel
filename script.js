@@ -5,10 +5,6 @@ const nextBtn = document.querySelector(`.carousel_button.right`);
 const prevBtn = document.querySelector(`.carousel_button.left`);
 const dotsNav = document.querySelector(`.carousel_nav`);
 const dots = Array.from(dotsNav.children);
-let sound = new Audio();
-sound.src ="audio/Kizz_Daniel_Cough_Odo_Yewu__(NaijaMusic.NG).mp3"
-
-sound.play();
 
 const slideWidth = slides[0].getBoundingClientRect().width;
 
