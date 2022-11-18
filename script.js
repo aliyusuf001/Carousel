@@ -84,4 +84,9 @@ dotsNav.addEventListener("click", e => {
     
 });
 
+const sound = new Audio();
+sound.src ="audio/cough.mp3";
+sound.play();  
+sound.loop = true;
+
 
