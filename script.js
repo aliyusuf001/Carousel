@@ -83,10 +83,3 @@ dotsNav.addEventListener("click", e => {
     hideArrows(slides, prevBtn,nextBtn,targetIndex)
     
 });
-
-const sound = new Audio();
-sound.src ="audio/cough.mp3";
-sound.play();  
-sound.loop = true;
-
-
